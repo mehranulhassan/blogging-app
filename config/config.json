@@ -1,0 +1,27 @@
+{
+  "development": {
+    "dialect": "postgres",
+    "host": "localhost",
+    "username": "postgres",
+    "password": "maryammehran1",
+    "database": "postgres",
+    "port": 5432,
+    "timeout": 60000
+  },
+  "test": {
+    "dialect": "postgres",
+    "host": "127.0.0.1",
+    "username": "postgres",
+    "password": "maryammehran1",
+    "database": "database_test",
+    "port": 5432
+  },
+  "production": {
+    "dialect": "postgres",
+    "host": "127.0.0.1",
+    "username": "postgres",
+    "password": "maryammehran1",
+    "database": "database_production",
+    "port": 5432
+  }
+}
